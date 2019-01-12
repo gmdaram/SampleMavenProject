@@ -44,6 +44,7 @@ public class LoginPageTest extends testBase {
 	@AfterMethod
 	public void dispose(){
 		driver.quit();
+		System.out.println("Driver closed");
 	}
 	
 	
